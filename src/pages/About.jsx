@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../components/ThemeContext'; // Import ThemeContext
 import "./About.css";
+import duke from '../assets/duke.jpg';
 
 const About = () => {
   const { theme } = useContext(ThemeContext); // Get the theme from context
@@ -25,8 +26,8 @@ const About = () => {
           </div>
 
           <img
-            src="./src/assets/duke.jpg"
-            alt="Boopathi"
+            src={duke}
+            alt={duke}
             className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
           />
         </div>

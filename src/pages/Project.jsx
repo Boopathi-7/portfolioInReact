@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../components/ThemeContext';
-import elephant from '../assets/elephant.jpg';
+// import elephant from '../assets/elephant.jpg';
+import elephant1 from '../assets/elephant1.jpg';
+import stone from '../assets/stone.png';
 import listitms from '../assets/listitms.jpg';
 import randomcolor from '../assets/randomcolor.jpg';
 import swiggy from '../assets/swiggy.jpg';
 import settimeout from '../assets/settimeout.jpeg';
-import stonepaperscissors from '../assets/stonepaperscissors.jpg';
+// import stonepaperscissors from '../assets/stonepaperscissors.jpg';
 
 const Project = () => {
   const { theme } = useContext(ThemeContext); // Access the current theme
@@ -39,7 +41,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src={elephant}
+              src={elephant1}
               alt="Elephant Article"
               className="w-full h-48 object-cover"
             />
@@ -85,7 +87,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src={stonepaperscissors}
+              src={stone}
               alt="Stone Paper Scissor Game"
               className="w-full h-48 object-cover"
             />

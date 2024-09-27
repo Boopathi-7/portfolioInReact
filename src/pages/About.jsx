@@ -3,6 +3,7 @@ import { ThemeContext } from '../components/ThemeContext'; // Import ThemeContex
 import "./About.css";
 import duke from '../assets/duke.jpg';
 
+
 const About = () => {
   const { theme } = useContext(ThemeContext); // Get the theme from context
 

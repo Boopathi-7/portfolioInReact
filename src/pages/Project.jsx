@@ -1,5 +1,11 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../components/ThemeContext';
+import elephant from '../assets/elephant.jpg';
+import listitms from '../assets/listitms.jpg';
+import randomcolor from '../assets/randomcolor.jpg';
+import swiggy from '../assets/swiggy.jpg';
+import settimeout from '../assets/settimeout.jpeg';
+import stonepaperscissors from '../assets/stonepaperscissors.jpg';
 
 const Project = () => {
   const { theme } = useContext(ThemeContext); // Access the current theme
@@ -11,7 +17,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/swiggy.jpg"
+              src={swiggy}
               alt="Swiggy"
               className="w-full h-48 object-cover"
             />
@@ -33,7 +39,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/elephant.jpg"
+              src={elephant}
               alt="Elephant Article"
               className="w-full h-48 object-cover"
             />
@@ -57,7 +63,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/randomcolor.jpg"
+              src={randomcolor}
               alt="Random Color"
               className="w-full h-48 object-cover"
             />
@@ -79,7 +85,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/stonepaperscissor.jpg"
+              src={stonepaperscissors}
               alt="Stone Paper Scissor Game"
               className="w-full h-48 object-cover"
             />
@@ -101,7 +107,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/settimeout.jpeg"
+              src={settimeout}
               alt="Set Timeout"
               className="w-full h-48 object-cover"
             />
@@ -123,7 +129,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/listitms.jpg"
+              src={listitms}
               alt="Add List Using Use State"
               className="w-full h-48 object-cover"
             />
